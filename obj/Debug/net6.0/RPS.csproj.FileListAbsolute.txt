@@ -1,0 +1,15 @@
+/Users/christianlocke/sei/projects/RPS/bin/Debug/net6.0/RPS
+/Users/christianlocke/sei/projects/RPS/bin/Debug/net6.0/RPS.deps.json
+/Users/christianlocke/sei/projects/RPS/bin/Debug/net6.0/RPS.runtimeconfig.json
+/Users/christianlocke/sei/projects/RPS/bin/Debug/net6.0/RPS.dll
+/Users/christianlocke/sei/projects/RPS/bin/Debug/net6.0/RPS.pdb
+/Users/christianlocke/sei/projects/RPS/obj/Debug/net6.0/RPS.csproj.AssemblyReference.cache
+/Users/christianlocke/sei/projects/RPS/obj/Debug/net6.0/RPS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christianlocke/sei/projects/RPS/obj/Debug/net6.0/RPS.AssemblyInfoInputs.cache
+/Users/christianlocke/sei/projects/RPS/obj/Debug/net6.0/RPS.AssemblyInfo.cs
+/Users/christianlocke/sei/projects/RPS/obj/Debug/net6.0/RPS.csproj.CoreCompileInputs.cache
+/Users/christianlocke/sei/projects/RPS/obj/Debug/net6.0/RPS.dll
+/Users/christianlocke/sei/projects/RPS/obj/Debug/net6.0/refint/RPS.dll
+/Users/christianlocke/sei/projects/RPS/obj/Debug/net6.0/RPS.pdb
+/Users/christianlocke/sei/projects/RPS/obj/Debug/net6.0/RPS.genruntimeconfig.cache
+/Users/christianlocke/sei/projects/RPS/obj/Debug/net6.0/ref/RPS.dll
