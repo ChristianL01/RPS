@@ -1,25 +1,31 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+// Console.WriteLine("Hello, World!");
 
 //Declaring Random 
 Random random = new Random();
 
-//Choosing random number 0-2
-int rand_num = random.Next(0, 3);
-System.Console.WriteLine(rand_num);
+// System.Console.WriteLine(rand_num);
 
 //Player And Character Scores
 int playerScore = 0;
 int computerScore = 0;
 
-System.Console.WriteLine(playerScore.ToString());
-System.Console.WriteLine(computerScore.ToString());
+// System.Console.WriteLine(playerScore.ToString());
+// System.Console.WriteLine(computerScore.ToString());
+System.Console.WriteLine("Welcome to Rock, Paper, Scissors!!");
 
-//Taking in user input and assigning to a variable
-string userInput = Console.ReadLine();
-System.Console.WriteLine(userInput);
-while (playerScore != 10 && computerScore != 10)
+while (playerScore != 3 && computerScore != 3)
 {
+    System.Console.WriteLine("Type r for Rock, p for Paper, s for Scissors");
+    System.Console.WriteLine("Player Score is: " + playerScore + ". Computer Score is: " + computerScore + ".");
+
+    //Choosing random number 0-2
+    int rand_num = random.Next(0, 3);
+
+    //Taking in user input and assigning to a variable
+    string userInput = Console.ReadLine();
+
+    // System.Console.WriteLine(userInput);
     if (rand_num == 0) {
         System.Console.WriteLine("Computer Chooses Rock!");
 
@@ -31,10 +37,11 @@ while (playerScore != 10 && computerScore != 10)
             case "p":
             System.Console.WriteLine("Player Wins!!");
             playerScore++;
-            System.Console.WriteLine(playerScore);
+            // System.Console.WriteLine(playerScore);
             break;
             default:
             System.Console.WriteLine("Computer Wins!");
+            computerScore++;
             break;
         }
     }
@@ -45,6 +52,7 @@ while (playerScore != 10 && computerScore != 10)
         {
             case "r":
             System.Console.WriteLine("Computer Wins!");
+            computerScore++;
             break;
             case "p":
             System.Console.WriteLine("It's a Tie!");
@@ -52,7 +60,7 @@ while (playerScore != 10 && computerScore != 10)
             default:
             System.Console.WriteLine("Player Wins!");
             playerScore++;
-            System.Console.WriteLine(playerScore);
+            // System.Console.WriteLine(playerScore);
             break;
         }
     }
@@ -64,14 +72,21 @@ while (playerScore != 10 && computerScore != 10)
             case "r":
             System.Console.WriteLine("Player Wins!");
             playerScore++;
-            System.Console.WriteLine(playerScore);
+            // System.Console.WriteLine(playerScore);
             break;
             case "p":
             System.Console.WriteLine("Computer Wins!");
+            computerScore++;
             break;
             default:
             System.Console.WriteLine("It's a Tie!");
             break;
         }
     }
+}
+if (playerScore == 3) {
+    System.Console.WriteLine("Game Over, You Win!");
+}
+else {
+    System.Console.WriteLine("Game Over, You Lost!");
 }
